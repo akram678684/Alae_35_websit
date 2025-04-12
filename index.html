@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع علاء للتصميم الإلكتروني</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .hero {
+      background: linear-gradient(to right, #f2f2f2, #dcdcdc);
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .services, .contact {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      background: #ffffff;
+    }
+    .services h2, .contact h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .service-card {
+      background: #f2f2f2;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .service-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#hero">الرئيسية</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h1>مرحبا بك في موقع علاء للتصميم الإلكتروني</h1>
+    <p>نصمم لك موقعك بأسلوب عصري واحترافي بدون الحاجة لرأس مال.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>خدماتنا</h2>
+    <div class="service-card">
+      <h3>تصميم مواقع</h3>
+      <p>نقوم بتصميم صفحات ويب جذابة وسريعة الاستجابة لكل الأجهزة.</p>
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/web-1869239_960_720.jpg" alt="تصميم مواقع">
+    </div>
+    <div class="service-card">
+      <h3>تحسين تجربة المستخدم</h3>
+      <p>نساعدك في جعل موقعك سهل الاستخدام وسلس للزوار.</p>
+      <img src="https://cdn.pixabay.com/photo/2018/01/24/18/02/web-3101539_960_720.jpg" alt="تجربة المستخدم">
+    </div>
+    <div class="service-card">
+      <h3>دعم فني وتحديثات</h3>
+      <p>متابعة مستمرة وصيانة للمواقع بعد الإطلاق.</p>
+      <img src="https://cdn.pixabay.com/photo/2016/03/09/09/30/support-1245940_960_720.jpg" alt="الدعم الفني">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>اتصل بنا</h2>
+    <p style="text-align: center;">راسلنا عبر البريد الإلكتروني: <strong>alaa@example.com</strong></p>
+  </section>
+
+  <footer>
+    <p>© 2025 علاء للتصميم الإلكتروني</p>
+  </footer>
+
+</body>
+</html>
